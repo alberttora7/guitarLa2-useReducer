@@ -7,7 +7,7 @@ type GuitarProps ={
 
 export default function Guitar({guitar, addToCart} : GuitarProps) {
 
-    const { id, name, image, description, price } = guitar
+    const {  name, image, description, price } = guitar
 
 
     return (
